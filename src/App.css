@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card.btc {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(234, 179, 0, 0.06) 100%
+  );
+}
+
+.card.sol {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(220, 31, 255, 0.1) 100%
+  );
+}
+
+.card.eth {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(237, 240, 244, 0.1) 100%
+  );
+}
+
+.card.busd {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(234, 179, 0, 0.06) 100%
+  );
+}
+
+.card.shib {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(228, 45, 4, 0.1) 100%
+  );
+}
+
+span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+}
+
+span.text-sm {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+}
